@@ -17,14 +17,33 @@
 
  @import "bootstrap";
 
- html,
- body {
-   width: 100%;
-   height: 100%;
-   margin: 0;
-   padding: 0;
- }
+html,
+body {
+    height: 100%;
+    margin: 0;
+    padding: 0;
+}
  
  .profiler-results {
    display: none;
  }
+
+ a {
+  text-decoration: none;
+}
+
+a:hover {
+  color: aqua!important;
+  text-decoration: underline;
+}
+
+.cover-new {
+    height: 100vh;                 /* ビューポート全体の高さ */
+    width: 100%;
+    background-image: url(/assets/new-scaled.jpg);
+    background-color: rgba(255, 255, 255, 0.4);
+    background-blend-mode: lighten;
+    background-size: cover;         /* 画面に合わせて拡大・トリミング */
+    background-position: center;    /* 中央に配置 */
+    background-repeat: no-repeat;   /* 繰り返さない */
+}
