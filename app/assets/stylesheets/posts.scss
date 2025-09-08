@@ -2,7 +2,7 @@
     font-family: serif;
   }
   
-  ..cover-new {
+  .cover-new {
     height: 100vh;                 
     width: 100%;
     background-image: url(/assets/new-scaled.jpg);
@@ -51,7 +51,7 @@
   background-image: url(/assets/show-scaled.jpg);
   background-color: rgba(255, 255, 255, 0.4);
   background-blend-mode: lighten;
-  background-size: 100% 100%;
+  background-size: 120% 120%;
 }
 
 #text {
